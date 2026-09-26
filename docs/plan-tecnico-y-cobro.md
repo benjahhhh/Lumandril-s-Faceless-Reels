@@ -62,7 +62,13 @@ Modo premium de vídeo (Kling 3.0, 0,10 $/s): ~6,50 $ → **1.300 créditos**. S
 | Gratis | 0 € | 60 una sola vez | 1 vídeo de plantilla, con marca de agua |
 | Creador | 19 €/mes | 1.000/mes | 20 plantillas, o 7 de terror, o 2 frutinovelas de calidad Cine |
 | Pro | 49 €/mes | 3.000/mes + modelos premium | 60 plantillas, o 7 frutinovelas de calidad Cine |
-| Recarga | 15 € | 1.000 | Pago único |
+| Recarga | 12 € | 500 | Pago único, solo suscriptores |
+
+**Reglas para sacar más margen:**
+
+1. **Los créditos del plan caducan en cada renovación y no se acumulan.** Los extra (bienvenida y recargas) no caducan.
+2. **La recarga es más cara por crédito que el plan** (0,024 €/crédito frente a 0,019 € del Creador) y solo la pueden comprar los suscriptores.
+3. **Plan anual con 2 meses gratis** (fase 5): cobras 12 meses por adelantado. Necesita un proceso mensual que renueve los créditos, por eso va al final.
 
 ### Margen en el peor caso (el usuario gasta todos sus créditos)
 
@@ -70,7 +76,7 @@ Modo premium de vídeo (Kling 3.0, 0,10 $/s): ~6,50 $ → **1.300 créditos**. S
 |---|---|---|---|
 | Creador 19 € | ~15,00 € | ~4,60 € | **~10,40 €** |
 | Pro 49 € | ~39,30 € | ~13,80 € | **~25,50 €** |
-| Recarga 15 € | ~11,80 € | ~4,60 € | **~7,20 €** |
+| Recarga 12 € | ~9,40 € | ~2,30 € | **~7,10 €** |
 
 ¹ Descontando IVA del 21 %, Stripe (1,5 % + 0,25 € con tarjetas estándar de la UE) y Stripe Tax (~0,5 %).
 ² Créditos × 0,005 $, pasado a euros de forma aproximada.

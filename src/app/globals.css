@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+/* Paleta: base clara con tinte ciruela y acento mango. Los componentes usan
+   solo estos tokens; el tema oscuro redefine los mismos nombres. */
+:root {
+  color-scheme: light;
+  --fondo: #f6f5fa;
+  --superficie: #ffffff;
+  --texto: #1d1928;
+  --suave: #625c73;
+  --borde: #e2dfea;
+  --acento: #ffb224;
+  --sobre-acento: #1d1928;
+  --ok: #1e8a4f;
+  --aviso: #a86a00;
+  --error: #c0392b;
+  --error-fondo: #fbeaea;
+  --ok-fondo: #e7f4ec;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --fondo: #15121c;
+    --superficie: #1e1a28;
+    --texto: #f2f0f7;
+    --suave: #a8a2b8;
+    --borde: #2f2a3b;
+    --acento: #ffb224;
+    --sobre-acento: #1d1928;
+    --ok: #4cc38a;
+    --aviso: #f0b44c;
+    --error: #f07167;
+    --error-fondo: #3a1d22;
+    --ok-fondo: #173024;
+  }
+}
+
+@theme inline {
+  --color-fondo: var(--fondo);
+  --color-superficie: var(--superficie);
+  --color-texto: var(--texto);
+  --color-suave: var(--suave);
+  --color-borde: var(--borde);
+  --color-acento: var(--acento);
+  --color-sobre-acento: var(--sobre-acento);
+  --color-ok: var(--ok);
+  --color-aviso: var(--aviso);
+  --color-error: var(--error);
+  --color-error-fondo: var(--error-fondo);
+  --color-ok-fondo: var(--ok-fondo);
+  --font-sans: var(--font-cuerpo), system-ui, sans-serif;
+  --font-titular: var(--font-display), "Arial Narrow", Impact, sans-serif;
+}
+
+body {
+  background: var(--fondo);
+  color: var(--texto);
+  font-family: var(--font-cuerpo), system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+:focus-visible {
+  outline: 2px solid var(--acento);
+  outline-offset: 2px;
+}
+
+/* Subtítulo estilo vídeo corto: letras grandes con contorno. */
+.subtitulo {
+  font-family: var(--font-display), Impact, sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  -webkit-text-stroke: 6px #000000;
+  paint-order: stroke fill;
+  line-height: 1.05;
+}
