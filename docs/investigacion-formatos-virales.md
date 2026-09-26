@@ -150,6 +150,8 @@ Tipo de coste: **A** = plantilla (sin generar imagen ni vídeo), **B** = imágen
 
 ## 5. Coste estimado por vídeo de 60 s
 
+> Actualizado en `plan-tecnico-y-cobro.md` §4: esa versión incluye el coste del guion con Claude y el render en servidor, y es la que manda para fijar los créditos.
+
 Supuestos: 60 s de locución ≈ 900 caracteres. ElevenLabs: 0,10 $/1.000 caracteres (v3/Multilingual) o 0,05 $ (Flash). Imagen ≈ 0,03 $. Vídeo IA: Seedance 2.0 Fast 0,022 $/s, Kling 3.0 0,10 $/s, Veo 3.1 con audio 0,40 $/s.
 
 | Paso | A · Plantilla | B · Imágenes | C · Vídeo IA |
